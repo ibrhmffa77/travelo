@@ -163,7 +163,6 @@
   align-items: center;
   gap: 30px;
   flex-direction: column;
-  margin-top: 50px;
 }
 .container .row .destination-title {
   width: 500px;
