@@ -1,0 +1,31 @@
+.container{
+    width: $max-width;
+
+    .row{
+        width: $max-width;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-direction: column;
+        margin-top: 50px;
+        .destination-title{
+            width: 500px;
+            text-align: center;
+        h3{
+            font-size: 38px;
+            font-family: $font-nav
+        }
+        p{
+            font-size: $font-nav;
+            font-family: $font-nav;
+            color: $gray;
+
+        }
+
+        }
+        .destination-card{
+           @include box;
+
+        }
+    }
+}

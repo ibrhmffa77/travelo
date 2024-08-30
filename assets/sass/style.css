@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#carousel {
+  width: 100%;
+  display: flex;
+}
+#carousel .carousel-container {
+  width: 100%;
+  position: relative;
+}
+#carousel .carousel-container .mySlides {
+  display: none;
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#carousel .carousel-container .carousel-container-texts {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+#carousel .carousel-container .carousel-container-texts h3 {
+  font-size: 150px;
+  font-family: "Nothing You Could Do";
+}
+#carousel .carousel-container .carousel-container-texts p {
+  font-size: 23px;
+  font-family: sans-serif;
+}
+#carousel .carousel-container .carousel-container-texts button {
+  width: 177px;
+  padding: 20px;
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+}
+
+.container {
+  width: 100%;
+}
+.container .row {
+  width: 100%;
+}
+.container .row .navbar-area {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 40px;
+  font-size: "Rubik";
+  font-family: "Rubik";
+}
+.container .row .navbar-area .col-xl-2 {
+  width: 306px;
+}
+.container .row .navbar-area .col-xl-6 {
+  width: 890px;
+}
+.container .row .navbar-area .col-xl-6 .navbar-area-link ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding: 12px 0;
+}
+.container .row .navbar-area .col-xl-6 .navbar-area-link ul li > a {
+  text-decoration: none;
+  color: #040E27;
+}
+.container .row .navbar-area .col-xl-6 .navbar-area-link ul li > a:hover {
+  color: #17a2b8;
+}
+.container .row .navbar-area .col-xl-4 {
+  width: 590px;
+}
+.container .row .navbar-area .col-xl-4 .navbar-area-social {
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+  gap: 60px;
+  align-items: center;
+  padding: 12px 0;
+}
+.container .row .navbar-area .col-xl-4 .navbar-area-social .navbar-area-social-phone {
+  color: #040E27;
+  display: flex;
+  gap: 10px;
+}
+.container .row .navbar-area .col-xl-4 .navbar-area-social .navbar-area-social-phone i {
+  color: #dc3545;
+}
+.container .row .navbar-area .col-xl-4 .navbar-area-social .navbar-area-social-icons {
+  display: flex;
+  gap: 30px;
+  color: #6c757d;
+}
+.container .row .navbar-area .col-xl-4 .navbar-area-social .navbar-area-social-icons :hover {
+  color: #dc3545;
+}
+.container .row .navbar-area .navbar-area-btn {
+  width: 100px;
+}
+.container .row .navbar-area .navbar-area-btn button {
+  width: 100%;
+  padding: 40px;
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+}
+
+.travel {
+  width: 100%;
+  height: 150px;
+  background-color: #040E27;
+  color: #fff;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.travel form {
+  display: flex;
+  gap: 20px;
+}
+.travel form input, .travel form #options {
+  width: 220px;
+  height: 50px;
+  border: 1px solid #6c757d;
+  background-color: #040e27;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.travel form input::-moz-placeholder {
+  color: #fff;
+}
+.travel form input::placeholder {
+  color: #fff;
+}
+.travel form button {
+  width: 132px;
+  height: 50px;
+  background-color: #FF4A52;
+  color: #fff;
+  border: none;
+}
+
+.container {
+  width: 100%;
+}
+.container .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.container .row .destination-title {
+  width: 500px;
+  text-align: center;
+}
+.container .row .destination-title h3 {
+  font-size: 38px;
+  font-family: "Rubik";
+}
+.container .row .destination-title p {
+  font-size: "Rubik";
+  font-family: "Rubik";
+  color: #6c757d;
+}
+.container .row .destination-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 30px 320px 70px;
+}
+.container .row .destination-card .destination-card-items {
+  position: relative;
+  font-size: "Rubik";
+  font-family: "Rubik";
+}
+.container .row .destination-card .destination-card-items img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .row .destination-card .destination-card-items .destination-card-items-texts {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  gap: 30px;
+  bottom: 0;
+  position: absolute;
+  margin: 0 0 40px 20px;
+}
+.container .row .destination-card .destination-card-items .destination-card-items-texts button {
+  width: 100px;
+  padding: 5px;
+  font-size: "Rubik";
+  border-radius: 25px;
+  border: none;
+  background-color: #1EC6B6;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

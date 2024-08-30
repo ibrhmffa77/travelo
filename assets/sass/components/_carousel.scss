@@ -1,0 +1,47 @@
+#carousel{
+    width: 100%;
+    display: flex;
+    
+    .carousel-container{
+        width: 100%;
+        position: relative;
+        .mySlides {
+            display:none;
+            height: 650px;
+            background-size: cover;
+            background-repeat: no-repeat;
+           
+        }
+        .carousel-container-texts{
+            width: 100%;
+            height: 100%;
+            top: 0;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            // z-index: 9999;
+            color: $white;
+            h3{
+                font-size: 150px;
+                font-family: "Nothing You Could Do";
+                
+            }
+            p{
+                font-size: 23px;
+                font-family: sans-serif;
+            }
+            button{
+                width: 177px;
+                padding: 20px;
+                background-color: #17a2b8;
+                color: $white;
+                border: none;
+                margin-top: 15px;
+                
+            }
+        }
+    }
+    
+}

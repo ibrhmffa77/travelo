@@ -1,0 +1,36 @@
+@mixin box(){
+        width: $max-width;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 30px  320px 70px;
+        .destination-card-items{
+            position: relative;
+            
+            font-size: $font-nav;
+            font-family: $font-nav;
+            img{
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .destination-card-items-texts{
+                display: $flex;
+                align-items: center;  
+                 width: 200px;
+                gap: 30px;
+                bottom: 0;
+                position: absolute;
+                margin: 0 0 40px 20px;
+                button{
+                    width: 100px;
+                    padding: 5px;
+                    font-size: $font-nav;
+                    border-radius: 25px;
+                    border: none;
+                    background-color: $aqua;
+                    color: $white;
+                }
+            }
+        }
+    }

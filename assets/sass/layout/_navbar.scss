@@ -1,0 +1,80 @@
+
+.container{
+    width: $max-width;
+
+     .row{
+       width: $max-width;
+        
+       .navbar-area{
+        display: $flex;
+        align-items: center;
+        padding: 0 0 0 40px;
+        font-size: $font-nav;
+        font-family: $font-nav;
+
+        .col-xl-2{
+            width: 306px;
+         
+            
+        }
+        .col-xl-6{
+            width: 890px;
+            .navbar-area-link ul{
+                display: $flex;
+                list-style: none;
+                gap: 50px;
+                padding: 12px 0;
+
+                li>a{
+                    text-decoration: none;
+                    color: $black;
+                }
+                li>a:hover{
+                    color: $cyan;
+                  }
+            }
+        }
+        .col-xl-4{
+            width: 590px;
+            .navbar-area-social{
+                display: $flex;
+                justify-content: end;
+                margin-right: 30px;
+                gap: 60px;
+                align-items: center;
+                padding: 12px 0;
+
+                .navbar-area-social-phone{
+                 color: $black;
+                 display:$flex ;
+                 gap: 10px;
+                 i{
+                    color:$danger ;
+
+                 }
+                }
+                .navbar-area-social-icons{
+                    display: $flex;
+                    gap: 30px;
+                    color: $gray;
+                    :hover{
+                        color: $danger;
+                    }
+                }
+            }
+        }
+        .navbar-area-btn{
+            width: 100px;
+            button{
+                width: 100%;
+                padding: 40px;
+                background-color: $danger;
+                border: none;
+                color: $white;
+
+
+            }
+        }
+       }
+     }
+}

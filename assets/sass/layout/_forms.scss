@@ -1,0 +1,38 @@
+.travel{
+    width: 100%;
+    height: 150px;
+    background-color: $black;
+    color: $white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    form{
+        display: flex;
+        gap: 20px;
+         input, #options{
+            width: 220px;
+            height: $form-height;
+            border: 1px solid $gray;
+            background-color: $dark;
+            color: $white;
+            padding: 10px;
+            border-radius: 5px;
+
+          
+         }
+         input::placeholder{
+            color: $white;
+        }
+        button{
+            width: 132px;
+            height: $form-height;
+            background-color: $red;
+            color: $white;
+            border: none;
+        }
+    }
+    
+}
