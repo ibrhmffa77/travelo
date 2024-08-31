@@ -1,7 +1,35 @@
-// #newsletter{
-//     width: $max-width;
-//     .our-newsletter{
-//         width: $max-width;
+#newsletter{
+    width: $max-width;
 
-//     }
-// }
+   .our-newsletter{
+    position: relative;
+    height: auto;
+    display: $flex;
+    justify-content: center;
+    padding: 40px;
+    & img{
+        filter: brightness(38%);
+
+    }
+   }
+   .our-newsletter-texts{
+    position: absolute;
+    width: 950px;
+    display: flex;
+    top: 0;
+    margin:  80px auto;
+    padding: 20px;
+    & .text{
+        width: 365px;
+        & h4{
+        font-size: 24px;
+        color: $white;
+
+        }
+        & p{
+            font-size: $font-nav;
+            color: $boz;
+        }
+    }
+   }
+}

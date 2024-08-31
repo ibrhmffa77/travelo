@@ -4,6 +4,30 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 100%;
+}
+.container .row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.container .row .title {
+  width: 500px;
+  text-align: center;
+  padding: 30px;
+}
+.container .row .title h3 {
+  font-size: 38px;
+  font-family: "Rubik";
+}
+.container .row .title p {
+  font-size: "Rubik";
+  font-family: "Rubik";
+  color: #6c757d;
+}
+
 #carousel {
   width: 100%;
   display: flex;
@@ -154,30 +178,38 @@
   border: none;
 }
 
-.container {
-  width: 100%;
-}
-.container .row {
-  width: 100%;
+.our-newsletter-texts form {
   display: flex;
   align-items: center;
-  gap: 30px;
-  flex-direction: column;
+  gap: 20px;
 }
-.container .row .destination-title {
-  width: 500px;
-  text-align: center;
+.our-newsletter-texts form #email {
+  width: 383px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
 }
-.container .row .destination-title h3 {
-  font-size: 38px;
-  font-family: "Rubik";
+.our-newsletter-texts form #email::-moz-placeholder {
+  padding: 10px;
+  color: #AAB1B7;
 }
-.container .row .destination-title p {
-  font-size: "Rubik";
-  font-family: "Rubik";
-  color: #6c757d;
+.our-newsletter-texts form #email::placeholder {
+  padding: 10px;
+  color: #AAB1B7;
 }
-.container .row .destination-card {
+.our-newsletter-texts form #submit {
+  width: 131px;
+  height: 50px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+}
+.our-newsletter-texts form #submit:hover {
+  background-color: #1EC6B6;
+}
+
+.destination-card {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -185,17 +217,17 @@
   flex-wrap: wrap;
   padding: 30px 320px 70px;
 }
-.container .row .destination-card .destination-card-items {
+.destination-card .destination-card-items {
   position: relative;
   font-size: "Rubik";
   font-family: "Rubik";
 }
-.container .row .destination-card .destination-card-items img {
+.destination-card .destination-card-items img {
   background-size: cover;
   background-repeat: no-repeat;
   filter: brightness(50%);
 }
-.container .row .destination-card .destination-card-items .destination-card-items-texts {
+.destination-card .destination-card-items .destination-card-items-texts {
   display: flex;
   align-items: center;
   width: 200px;
@@ -205,7 +237,7 @@
   color: #fff;
   margin: 0 0 40px 20px;
 }
-.container .row .destination-card .destination-card-items .destination-card-items-texts button {
+.destination-card .destination-card-items .destination-card-items-texts button {
   width: 100px;
   padding: 5px;
   font-size: "Rubik";
@@ -213,4 +245,178 @@
   border: none;
   background-color: #1EC6B6;
   color: #fff;
+}
+.destination-card .destination-card-items:hover p {
+  color: #dc3545;
+}
+.destination-card .destination-card-items:hover button {
+  background-color: #dc3545;
+}
+
+#newsletter {
+  width: 100%;
+}
+#newsletter .our-newsletter {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+#newsletter .our-newsletter img {
+  filter: brightness(38%);
+}
+#newsletter .our-newsletter-texts {
+  position: absolute;
+  width: 950px;
+  display: flex;
+  top: 0;
+  margin: 80px auto;
+  padding: 20px;
+}
+#newsletter .our-newsletter-texts .text {
+  width: 365px;
+}
+#newsletter .our-newsletter-texts .text h4 {
+  font-size: 24px;
+  color: #fff;
+}
+#newsletter .our-newsletter-texts .text p {
+  font-size: "Rubik";
+  color: #7A838B;
+}
+
+#popular .popular-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 30px 320px 40px;
+}
+#popular .popular-items .items-card {
+  font-size: "Rubik";
+  font-family: "Rubik";
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+#popular .popular-items .items-card .items-card-img {
+  position: relative;
+}
+#popular .popular-items .items-card .items-card-img img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#popular .popular-items .items-card .items-card-img .price {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #1EC6B6;
+  color: #fff;
+  border-radius: 18px;
+  padding: 7px 18px 4px 18px;
+}
+#popular .popular-items .items-card .items-card-texts {
+  padding: 27px 20px 25px;
+  font-family: "Rubik";
+}
+#popular .popular-items .items-card .items-card-texts h3 {
+  font-size: 22px;
+  color: #040E27;
+}
+#popular .popular-items .items-card .items-card-texts p {
+  color: #7A838B;
+  font-size: 14px;
+  margin: 2px 0 7px;
+}
+#popular .popular-items .items-card .items-card-texts .icons {
+  display: flex;
+  justify-content: space-between;
+}
+#popular .popular-items .items-card .items-card-texts .icons p {
+  font-size: 14px;
+  font-family: "Rubik";
+}
+#popular .popular-items .items-card .items-card-texts .icons p .bi-star-fill {
+  color: #FDAE5C;
+}
+#popular .popular-items .items-card:hover .price {
+  background-color: #dc3545;
+}
+#popular .popular-items .items-card:hover h3 {
+  color: #dc3545;
+}
+#popular .place {
+  width: 170px;
+  height: 50px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 150px;
+}
+#popular .place:hover {
+  background-color: #1EC6B6;
+}
+
+#video {
+  width: 100%;
+}
+#video .video-area .video-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#video .video-area .video-img img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#video .video-area .video-img .video-text {
+  position: absolute;
+  width: 1110px;
+  text-align: center;
+}
+#video .video-area .video-img .video-text h3 {
+  font-size: 80px;
+  color: #fff;
+  font-family: "Nothing You Could Do";
+}
+#video .video-area .video-img .video-text .video-icon {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: #1EC6B6;
+  color: White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#video .video-area .video-img .video-text .video-icon a {
+  font-size: 30px;
+}
+
+#variation .variation-area {
+  padding: 150px 0 114px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+#variation .variation-area .items-area {
+  width: 350px;
+  text-align: center;
+  padding: 0px 15px;
+}
+#variation .variation-area .items-area .variation-text {
+  font-family: "Rubik";
+}
+#variation .variation-area .items-area .variation-text h3 {
+  color: #040E27;
+  font-size: 22px;
+  margin: 41px 0 10px;
+}
+#variation .variation-area .items-area .variation-text p {
+  font-weight: 400;
+  color: #6E6E6E;
+  font-size: "Rubik";
 }/*# sourceMappingURL=style.css.map */

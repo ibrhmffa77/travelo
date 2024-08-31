@@ -1,0 +1,43 @@
+#video{
+    width: $max-width;
+
+    & .video-area{
+
+        & .video-img{
+            position: relative;
+            display: $flex;
+            justify-content: center;
+            align-items: center;
+             
+            & img{
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            & .video-text{
+                position: absolute;   
+                width: 1110px;
+                text-align: center ;
+               & h3{
+                font-size: 80px;
+                color: $white;
+                font-family: "Nothing You Could Do";
+               }
+               & .video-icon{
+                width: 84px;
+                height: 84px;
+                border-radius: 50%;
+                margin: auto;
+                background-color: $aqua;
+                color: White;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                & a{
+                    font-size: 30px;
+                }
+               }
+            }
+        }
+    }
+}

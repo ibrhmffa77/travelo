@@ -36,3 +36,30 @@
     }
     
 }
+.our-newsletter-texts form{
+    display: $flex;
+    align-items: center;
+    gap: 20px;
+    & #email{
+        width: 383px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        background-color: $white;
+        &::placeholder{
+            padding: 10px;
+            color: $grey;
+        }
+    }
+    & #submit{
+        width: 131px;
+        height: 50px;
+        border: none;
+        background-color: $danger;
+        color: $white;
+        &:hover{
+            background-color: $aqua;
+        }
+    }
+  
+}

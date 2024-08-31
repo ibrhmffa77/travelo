@@ -1,0 +1,30 @@
+#variation{
+    & .variation-area{
+        padding: 150px 0 114px;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        // width: 1903px;
+
+        & .items-area{
+            width: 350px;
+            text-align: center;
+            padding: 0px 15px;
+
+            & .variation-text{
+                font-family: $font-nav;
+                & h3{
+                    color: $black;
+                    font-size: 22px;
+                    margin: 41px 0 10px;
+                }
+                p{
+                    font-weight: 400;
+                    color: #6E6E6E;
+                    font-size: $font-nav;
+                }
+            }
+        }
+    }
+}

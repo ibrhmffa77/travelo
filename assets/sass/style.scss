@@ -3,6 +3,7 @@
 @import './helpers/variables';
 @import './helpers/mixins';
 
+@import './components/container-row';
 @import './components/carousel';
 
 
@@ -12,4 +13,7 @@
 
 @import './partial/home/destination';
 @import './partial/home/newsletter';
+@import './partial/home/popular';
+@import './partial/home/video';
+@import './partial/home/variation';
 
