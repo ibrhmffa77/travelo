@@ -296,6 +296,7 @@
 #popular .popular-items .items-card {
   font-size: "Rubik";
   font-family: "Rubik";
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 #popular .popular-items .items-card .items-card-img {
@@ -304,6 +305,7 @@
 #popular .popular-items .items-card .items-card-img img {
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 5px;
 }
 #popular .popular-items .items-card .items-card-img .price {
   position: absolute;
@@ -419,4 +421,84 @@
   font-weight: 400;
   color: #6E6E6E;
   font-size: "Rubik";
+}
+
+#testimonial {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 118px;
+  text-align: center;
+  background-color: #f7fafd;
+}
+#testimonial .testimonial-area {
+  width: 730px;
+}
+#testimonial .testimonial-area .testimonial-img {
+  position: relative;
+  width: 106px;
+  margin: auto;
+}
+#testimonial .testimonial-area .testimonial-img img {
+  width: 106px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#testimonial .testimonial-area .testimonial-img .icons {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #1EC6B6;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+}
+#testimonial .testimonial-area .testimonial-text {
+  font-family: "Rubik";
+}
+#testimonial .testimonial-area .testimonial-text p {
+  font-size: 18px;
+  color: #040E27;
+  margin: 34px 0 10px;
+}
+#testimonial .testimonial-area .testimonial-text h3 {
+  font-size: 16px;
+  color: #7A838B;
+  font-weight: 400;
+  margin: 0 0 8px;
+}
+
+#recent {
+  margin: 100px 0;
+}
+#recent .recent-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+#recent .recent-items .items-card {
+  width: 350px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+#recent .recent-items .items-card img {
+  border-radius: 5px;
+}
+#recent .recent-items .items-card .card-text {
+  font-family: "Rubik";
+  padding: 16px 0 0;
+}
+#recent .recent-items .items-card .card-text p {
+  color: #7a838b;
+  font-size: 14px;
+}
+#recent .recent-items .items-card .card-text h3 {
+  font-size: 24px;
+  margin: 10px 0 0;
+}
+#recent .recent-items .items-card:hover h3 {
+  color: #dc3545;
 }/*# sourceMappingURL=style.css.map */
