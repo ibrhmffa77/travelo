@@ -209,6 +209,116 @@
   background-color: #1EC6B6;
 }
 
+#footer {
+  width: 100%;
+  background-color: #040E27;
+  color: #fff;
+  display: flex;
+  padding: 155px 0 129px;
+  align-items: center;
+  justify-content: center;
+}
+#footer .footer-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#footer .footer-area .width-350 {
+  width: 350px;
+  height: 272px;
+  padding: 0 20px;
+}
+#footer .footer-area .width-350 img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+#footer .footer-area .width-350 p {
+  font-size: 14px;
+  color: #aab1b7;
+  margin-top: 5px;
+}
+#footer .footer-area .width-350 p a {
+  text-decoration: none;
+}
+#footer .footer-area .width-350 p a:hover {
+  color: #dc3545;
+}
+#footer .footer-area .width-350 .contact {
+  margin-bottom: 40px;
+}
+#footer .footer-area .width-350 .icon {
+  display: flex;
+  gap: 20px;
+}
+#footer .footer-area .width-350 .icon i {
+  margin-top: 20px;
+  color: #aab1b7;
+}
+#footer .footer-area .width-350 .icon i:hover {
+  color: #dc3545;
+}
+#footer .footer-area .width-190 {
+  width: 190px;
+  height: 272px;
+  padding: 0 20px;
+}
+#footer .footer-area .width-190 .footer-title {
+  margin-bottom: 30px;
+  color: white;
+}
+#footer .footer-area .width-190 .footer-link ul {
+  list-style: none;
+}
+#footer .footer-area .width-190 .footer-link ul li {
+  margin-top: 5px;
+}
+#footer .footer-area .width-190 .footer-link ul li a {
+  text-decoration: none;
+  color: #aab1b7;
+}
+#footer .footer-area .width-190 .footer-link ul li a:hover {
+  color: #dc3545;
+}
+#footer .footer-area .width-285 {
+  height: 272px;
+  width: 285px;
+  padding: 0 20px;
+}
+#footer .footer-area .width-285 .footer-title {
+  margin-bottom: 30px;
+  color: white;
+}
+#footer .footer-area .width-285 .footer-link {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#footer .footer-area .width-285 .footer-link ul {
+  list-style: none;
+}
+#footer .footer-area .width-285 .footer-link ul li {
+  margin-top: 5px;
+}
+#footer .footer-area .width-285 .footer-link ul li a {
+  text-decoration: none;
+  color: #aab1b7;
+}
+#footer .footer-area .width-285 .footer-link ul li a:hover {
+  color: #dc3545;
+}
+#footer .footer-area .width-285 .footer-img img {
+  margin-top: 5px;
+}
+#footer p {
+  margin-top: 100px;
+}
+#footer p a {
+  color: #dc3545;
+  text-decoration: none;
+}
+
 .destination-card {
   width: 100%;
   display: flex;
